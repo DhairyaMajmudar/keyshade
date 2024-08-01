@@ -523,7 +523,6 @@ export class VariableService {
       },
       skip: page * limit,
       take: limitMaxItemsPerPage(limit),
-
       orderBy: {
         [sort]: order
       }
@@ -656,7 +655,6 @@ export class VariableService {
       },
       skip: page * limit,
       take: limitMaxItemsPerPage(limit),
-
       orderBy: {
         version: order
       }

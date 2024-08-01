@@ -46,7 +46,6 @@ export class EventService {
       },
       skip: page * limit,
       take: limitMaxItemsPerPage(limit),
-
       orderBy: {
         timestamp: 'desc'
       }

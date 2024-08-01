@@ -299,7 +299,6 @@ export class IntegrationService {
       },
       skip: page * limit,
       take: limitMaxItemsPerPage(limit),
-
       orderBy: {
         [sort]: order
       }
